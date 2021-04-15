@@ -1,0 +1,8 @@
+section{
+    display: flex;
+    border-style: double;
+    flex-wrap: wrap;
+}
+img{
+    margin: 5px;
+}

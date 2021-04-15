@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    border-top:solid 1px lightblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    height: 4em;
+}
+header div{
+    display: flex;
+    width: 20em;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+}
+header h1{
+    margin-right: 8em;
+    text-transform: initial;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+header ul{
+    display: flex;
+    
+}
+header ul li{
+    list-style: none;
+    margin: 2em;
+}
+section{
+    background-image: url("https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: lightcyan;
+}
+section h1{
+    margin-top:0;
+    padding-top: 30%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+section a:nth-of-type(1){
+    padding: 0.5em 1em;
+    border:solid 2px lightcyan;
+    margin-top: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 15%;
+    display: inline-block;
+}
+section a:nth-of-type(2){
+    padding: 0.5em 1em;
+    border:solid 2px #745CF6;
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #745CF6;
+    width: 15%;
+}
+section a:link, section a:visited{
+    color: lightcyan;
+}
